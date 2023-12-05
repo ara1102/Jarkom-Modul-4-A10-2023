@@ -18,6 +18,154 @@
 ### Tree
 ### Pembagian IP
 ### Konfigurasi
+- Aura
+  ```
+  
+  ```
+- Denken
+  ```
+  
+  ```
+- RoyalCapital
+  ```
+  
+  ```
+- WilleRegion
+  ```
+  
+  ```
+- Frieren
+  ```
+  
+  ```
+- LakeKorridor
+  ```
+  
+  ```
+- Flamme
+  ```
+  
+  ```
+- Fern
+  ```
+  
+  ```
+- LaubHills
+  ```
+  
+  ```
+- RohrRoad
+  ```
+  
+  ```
+- Himmel
+  ```
+  
+  ```
+- SchwerMountains
+  ```
+  
+  ```
+- Eisen
+  ```
+  
+  ```
+- Richter
+  ```
+  
+  ```
+- Revolte
+  ```
+  
+  ```
+- Lugner
+  ```
+  
+  ```
+- TurkRegion
+  ```
+  
+  ```
+- GrobeForest
+  ```
+  
+  ```
+- Stark
+  ```
+  
+  ```
+- Linie
+  ```
+  
+  ```
+- Lawine
+  ```
+  
+  ```
+- BredtRegion
+  ```
+  
+  ```
+- Heiter
+  ```
+  
+  ```
+- Sein
+  ```
+  
+  ```
+- RiegelCanyon
+  ```
+  
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Routing
 
 ## CIDR
