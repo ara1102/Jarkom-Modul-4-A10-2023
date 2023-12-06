@@ -31,105 +31,418 @@
 
 ### Konfigurasi
 - Aura
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.121
+netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+address 10.4.7.105
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.4.7.125
+netmask 255.255.255.252
+```
+
 - Denken
-  ```
-  
-  ```
+
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.106
+netmask 255.255.255.252
+gateway 10.4.7.105
+
+auto eth1
+iface eth1 inet static
+address 10.4.8.1
+netmask 255.255.255.0
+```
+
 - RoyalCapital
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.8.2
+netmask 255.255.255.0
+gateway 10.4.8.1
+
+```
+
 - WilleRegion
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.8.65
+netmask 255.255.255.0
+gateway 10.4.8.1
+
+```
+
 - Frieren
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.117
+netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.161
+netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+address 10.4.7.122
+netmask 255.255.255.252
+gateway 10.4.7.121
+
+```
+
 - LakeKorridor
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.7.162
+netmask 255.255.255.224
+gateway 10.4.7.161
+
+```
+
 - Flamme
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.109
+netmask 255.255.255.252
+
+auto eth1
+iface eth1 inet static
+address 10.4.12.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.4.7.113
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.4.7.118
+netmask 255.255.255.252
+gateway 10.4.7.117
+
+```
+
 - Fern
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.24.1
+netmask 255.255.248.0
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.110
+netmask 255.255.255.252
+gateway 10.4.7.109
+
+```
+
 - LaubHills
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.24.2
+netmask 255.255.248.0
+gateway 10.4.24.1
+
+```
+
 - RohrRoad
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.25.144
+netmask 255.255.248.0
+gateway 10.4.24.1
+
+```
+
+- AppetitRegion
+```
+auto eth0
+iface eth0 inet static
+address 10.4.25.144
+netmask 255.255.248.0
+gateway 10.4.24.1
+
+```
+
+- RohrRoad
+```
+auto eth0
+iface eth0 inet static
+address 10.4.12.2
+netmask 255.255.252.0
+gateway 10.4.12.1
+
+```
+
 - Himmel
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.114
+netmask 255.255.255.252
+gateway 10.4.7.113
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.145
+netmask 255.255.255.248
+
+```
+
 - SchwerMountains
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.7.146
+netmask 255.255.255.248
+gateway 10.4.7.145
+
+```
+
 - Eisen
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.126
+netmask 255.255.255.252
+gateway 10.4.7.125
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.153
+netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+address 10.4.7.137
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.4.7.129
+netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+address 10.4.7.133
+netmask 255.255.255.252
+
+```
+
 - Richter
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.7.154
+netmask 255.255.255.248
+gateway 10.4.7.153
+
+```
+
 - Revolte
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.7.155
+netmask 255.255.255.248
+gateway 10.4.7.153
+
+```
+
 - Lugner
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.134
+netmask 255.255.255.252
+gateway 10.4.7.133
+
+auto eth1
+iface eth1 inet static
+address 10.4.16.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.4.9.1
+netmask 255.255.255.0
+
+```
+
 - TurkRegion
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.16.2
+netmask 255.255.252.0
+gateway 10.4.16.1
+
+```
+
 - GrobeForest
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.9.2
+netmask 255.255.255.0
+gateway 10.4.9.1
+
+```
+
 - Stark
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.7.130
+netmask 255.255.255.252
+gateway 10.4.7.129
+
+```
+
 - Linie
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.10.1
+netmask 255.255.254.0
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.138
+netmask 255.255.255.252
+gateway 10.4.7.137
+
+auto eth2
+iface eth2 inet static
+address 10.4.7.141
+netmask 255.255.255.252
+
+```
+
 - Lawine
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.142
+netmask 255.255.255.252
+gateway 10.4.7.141
+
+auto eth1
+iface eth1 inet static
+address 10.4.7.193
+netmask 255.255.255.192
+
+```
+
 - BredtRegion
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.7.194
+netmask 255.255.255.192
+gateway 10.4.7.193
+
+```
+
 - Heiter
-  ```
-  
-  ```
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.4.7.224
+netmask 255.255.255.192
+gateway 10.4.7.193
+
+auto eth1
+iface eth1 inet static
+address 10.4.20.1
+netmask 255.255.252.0
+
+```
+
 - Sein
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.20.2
+netmask 255.255.252.0
+gateway 10.4.20.1
+
+```
+
 - RiegelCanyon
-  ```
-  
-  ```
+```
+auto eth0
+iface eth0 inet static
+address 10.4.20.3
+netmask 255.255.252.0
+gateway 10.4.20.1
+
+```
+
+- GranzChannel
+```
+auto eth0
+iface eth0 inet static
+address 10.4.10.2
+netmask 255.255.252.0
+gateway 10.4.10.1
+
+```
 
 ### Routing
 
