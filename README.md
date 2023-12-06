@@ -13,7 +13,7 @@
 
 ## Topologi Cisco CIDR
 
-![Topologi CIDR](/images/topologi/cidr.jpg)
+![Topologi CIDR](/images/topologi/cidr.png)
 
 ## Rute Subnet
 
@@ -446,6 +446,127 @@ gateway 10.4.10.1
 
 ### Routing
 
+- Flamme
+
+```
+route add -net 10.4.24.0 netmask 255.255.248.0 gw 10.4.7.110
+route add -net 10.4.7.144 netmask 255.255.255.248  gw 10.4.7.114
+
+```
+
+- Frieren
+
+```
+#A14
+route add -net 10.4.7.116 netmask 255.255.255.252 gw 10.4.7.118
+
+#A19
+route add -net 10.4.24.0 netmask 255.255.248.0 gw 10.4.7.118
+
+#A17
+route add -net 10.4.12.0 netmask 255.255.252.0 gw 10.4.7.118
+
+#A16
+route add -net 10.4.7.144 netmask 255.255.255.248 gw 10.4.7.118
+
+```
+
+- Aura
+
+```
+#Frieren
+#A19
+route add -net 10.4.24.0 netmask 255.255.248.0 gw 10.4.7.122
+
+#A17
+route add -net 10.4.12.0 netmask 255.255.252.0 gw 10.4.7.122
+
+#A16
+route add -net 10.4.7.144 netmask 255.255.255.248 gw 10.4.7.122
+
+#A14
+route add -net 10.4.7.116 netmask 255.255.255.252 gw 10.4.7.122
+
+#A13
+route add -net 10.4.7.160 netmask 255.255.255.224 gw 10.4.7.122
+
+#A15
+route add -net 10.4.7.112 netmask 255.255.255.252 gw 10.4.7.122
+
+#A18
+route add -net 10.4.7.160 netmask 255.255.255.252 gw 10.4.7.122
+
+#Denken
+#A21
+route add -net 10.4.8.0 netmask 255.255.255.0 gw 10.4.7.106
+
+#Eisen
+#A1
+route add -net 10.4.20.0 netmask 255.255.252.0 gw 10.4.7.126
+
+#A2
+route add -net 10.4.7.192 netmask 255.255.255.192 gw 10.4.7.126
+
+#A3
+route add -net 10.4.7.140 netmask 255.255.255.252 gw 10.4.7.126
+
+#A4
+route add -net 10.4.10.0 netmask 255.255.254.0 gw 10.4.7.126
+
+#A5
+route add -net 10.4.7.136 netmask 255.255.255.252 gw 10.4.7.126
+
+#A6
+route add -net 10.4.7.152 netmask 255.255.255.248 gw 10.4.7.126
+#A7
+route add -net 10.4.7.132 netmask 255.255.255.252 gw 10.4.7.126
+#A8
+route add -net 10.4.16.0 netmask 255.255.252.0 gw 10.4.7.126
+#A9
+route add -net 10.4.9.0 netmask 255.255.255.0 gw 10.4.7.126
+
+#A10
+route add -net 10.4.7.128 netmask 255.255.255.252 gw 10.4.7.126
+
+```
+
+- Lawine
+
+```
+#A1
+route add -net 10.4.20.0 netmask 255.255.252.0 gw 10.4.7.224
+```
+
+- Linie
+
+```
+#A1
+route add -net 10.4.20.0 netmask 255.255.252.0 gw 10.4.7.142
+
+#A2
+route add -net 10.4.7.192 netmask 255.255.255.192 gw 10.4.7.142
+```
+
+- Eisen
+
+```
+#Lugner
+#A8
+route add -net 10.4.16.0 netmask 255.255.252.0 gw 10.4.7.134
+
+#A9
+route add -net 10.4.9.0 netmask 255.255.255.0 gw 10.4.7.134
+
+#Linie
+#A1
+route add -net 10.4.20.0 netmask 255.255.252.0 gw 10.4.7.138
+
+#A2
+route add -net 10.4.7.192 netmask 255.255.255.192 gw 10.4.7.138
+
+#A3
+route add -net 10.4.7.140 netmask 255.255.255.252 gw 10.4.7.138
+```
 
 ## CIDR
 
